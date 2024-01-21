@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+    width: 1.8rem;
+}
+::-webkit-scrollbar-track{
+    background: var(--second-bg-color);
+}
+::-webkit-scrollbar-thumb{
+    background: var(--bg-color);
+    border-radius: 1rem;
+    border: 3px solid transparent;
+    background-clip: content-box;
+    transition: .4s;
+}
+/* ::-webkit-scrollbar-thumb:hover{
+    background: var(--main-color);
+    transition: .4s;
+
+} */
